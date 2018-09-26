@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GroupsTesting]">
+  <test thread-count="5" name="Groups(failed)">
+    <classes>
+      <class name="Orangehrm.Ornagehrm.Admin">
+        <methods>
+          <include name="jobEmpstatus"/>
+          <include name="OrgLocations"/>
+          <include name="ConfigurationRegisterOAuthClient"/>
+          <include name="Nationalities"/>
+          <include name="QualificationsMembership"/>
+          <include name="ConfigurationSocialMediaAuthentication"/>
+          <include name="ConfigurationModules"/>
+          <include name="job"/>
+          <include name="jobcategoires"/>
+          <include name="ConfigurationEmailConfig"/>
+          <include name="ConfigurationEmailSub"/>
+          <include name="ConfigurationLocalization"/>
+          <include name="jobpaygrades"/>
+          <include name="QualificationsLicenses"/>
+          <include name="Qualificationsskills"/>
+          <include name="admin"/>
+          <include name="jobWorkshift"/>
+          <include name="OrgStructure"/>
+          <include name="QualificationsLanguages"/>
+          <include name="closeapp"/>
+          <include name="QualificationsEducation"/>
+          <include name="Orginformation"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Orangehrm.Ornagehrm.Admin -->
+    </classes>
+  </test> <!-- Groups(failed) -->
+</suite> <!-- Failed suite [GroupsTesting] -->
